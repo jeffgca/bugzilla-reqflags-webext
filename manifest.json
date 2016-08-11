@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Bugzilla Requests",
+  "version": "0.1",
+  "description": "Something.",
+  "homepage_url": "https://canuckistani.ca",
+  "icons": {
+    "48": "icons/bugzilla.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "icons/bugzilla.png",
+    "default_title": "Bugzilla Requests"
+  }
+}
